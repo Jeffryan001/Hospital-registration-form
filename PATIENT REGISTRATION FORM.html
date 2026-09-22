@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>UpendoHospital.com</title>
+	</head>
+	<body>
+		<h1>UPENDO HOSPITAL</h1>
+	<p>
+		Welcome to Upendo Hospital, where your health matters. <br>
+		Kindly fill the form below, so that you can be part of our <br>
+		community.
+	</p>
+		<h2> <u>Registration of a Patient</u></h2>
+		<form action="/action_page.php " method="post" style="background-color:rgb(240, 240, 255)">
+			<fieldset>
+			<legend><h2>Patient's Personal Information</h2></legend>
+			
+			<b>
+			<label for="name">Name:</label><br>
+			<input type="text" id="name" name="NAME"> <br> <br>
+			
+			<label for="DateOfBirth">Date Of Birth:</label> <br>
+			<input type="date" id="DateOfBirth" name="DOB"> <br> <br>
+			
+			<label for="Age">Age:</label> <br>
+		    <input type="number" id="Age" name="AGE"> <br> <br>
+		   
+		   <label for="Weight">Weight:</label> <br>
+		   <input type="number" id="Weight" name="WEIGHT"  >
+		   <i>
+		   <select id="Weight">
+		     <option>Kg</option>
+		     <option>Pounds</option>
+		   </select> <br> <br>
+		   </i>
+		  
+		   Gender:<br>
+		   <i>
+		    <input type="radio" id="male" name="Gender">
+		    <label for="male">Male</label> <br> 
+		    
+		    <input type="radio" id="female" name="Gender">
+		    <label for="female">Female</label> <br> <br>
+		   </i>
+		    
+		    <label for="IDnumber">ID Number:</label> <br>
+		    <input type="number" id="IDnumber" name="ID NUMBER" maxlength="9"> <br> <br>
+		    
+		    <label for="PatientID">Patient ID:</label> <br>
+		    <input type="text" id="PatientID" name="PATIENT ID"> <br> <br>
+		    
+		    <label for="PhoneNumber">Phone Number:</label> <br>
+		    <input type="text" maxlength="10" id=" PhoneNumber" name="PHONE NUMBER"> <br> <br>
+		    
+		    <label for="HealthStatus">Health Status:</label> <br>
+		    <textarea id="HealthStatus" name="HEALTH STATUS"></textarea> <br> <br>
+		    
+		    <label for="Address">Address:</label> <br>
+		    <input type="text" id="Address" name="ADDRESS"> <br> <br>
+		    
+		  Marital Status: <br>
+		    <i>
+		    <input type="radio" id="Single" name="Marital Status"> 
+		    <label for="Single">Single</label> <br> 
+			<input type="radio" id="Married" name="Marital Status">
+			<label for="Married">Married</label> <br> <br>
+			</i>
+			
+		 <label for="NextOfKin" >Next of KIN: </label><br>
+		 <textarea  id="NextOfKin" name="NEXT OF KIN" width="30"></textarea> <br> <br>
+		 </b>	
+		 
+		 <input type="Submit" value="SUBMIT" style="background-color: lightblue" 
+					onclick="alert ('Thank you for filling the Form. The Form is being Submitted.')">
+	
+		 </fieldset>
+		</form>
+		<p><br><b>
+		Thank you for visiting our website. <br>
+	    Upendo Hospital  @copyright 2026.
+		</b></p>
+	</body>
+</html>
